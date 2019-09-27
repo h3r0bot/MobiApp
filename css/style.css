@@ -10,5 +10,8 @@ background-color: aquamarine;
     background-color: darkgoldenrod;
 }
 .container-back{
-    background-image: https://avatars2.githubusercontent.com/u/45890736?s=460&v=4;
+    background-image: https://avatars2.githubusercontent.com/u/45890736?s=460&v=4;}
+.sign-in-item div{
+    margin-top: 10px;
+    margin-left: 20px;
 }

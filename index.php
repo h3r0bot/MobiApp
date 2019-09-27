@@ -13,7 +13,7 @@ switch ($view) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <!-- Required meta tags -->
@@ -25,17 +25,21 @@ switch ($view) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+        <link href="/css/style.css" rel="stylesheet">
+        
+        <link href="/fontawesome/css/all.css" rel="stylesheet">
+    
+        <title>Hello, world!</title>
 </head>
 
 
 <body>
 
-    <div class="container">
-        <?php include ('views/blocks/navbar.php'); ?>
-    </div>
+    <?php
+    include ('views/blocks/navbar.php');
 
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/views/pages/'.$view.'.php'); ?>
+    include ($_SERVER['DOCUMENT_ROOT'].'/views/pages/'.$view.'.php');
+    ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
