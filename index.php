@@ -1,10 +1,10 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$view = empty($_GET['view']) ? 'index' : $_GET['view'];
+$view = empty($_GET['view']) ? 'main' : $_GET['view'];
 
 switch ($view) {
-    case 'index':
+    case 'main':
     //   $games = get_games();
     //   $adverts = get_adverts();
     //   $_SESSION['switch'] = 0;//обнуление переключателя уведомлений
