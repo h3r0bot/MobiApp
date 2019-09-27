@@ -1,13 +1,14 @@
-.header{
-    height: 100px;
-    display: block;
-    
+.flex-block{
+    display: flex
 }
-.user-img{
-    width: 70px;
-    height: 70px;
+.senior{
+flex: 1;
+background-color: aquamarine;
 }
-.header nav{
-    float: left;
+.junior{
+    flex: 1;
+    background-color: darkgoldenrod;
 }
-.
+.container-back{
+    background-image: https://avatars2.githubusercontent.com/u/45890736?s=460&v=4;
+}
