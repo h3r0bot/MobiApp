@@ -13,7 +13,7 @@ switch ($view) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <!-- Required meta tags -->
@@ -30,11 +30,11 @@ switch ($view) {
 
 <body>
 
-    <div class="container">
-        <?php include ('views/blocks/navbar.php'); ?>
-    </div>
+    <?php
+    include ('views/blocks/navbar.php');
 
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/views/pages/'.$view.'.php'); ?>
+    include ($_SERVER['DOCUMENT_ROOT'].'/views/pages/'.$view.'.php');
+    ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
