@@ -102,8 +102,10 @@ header('Content-Type: text/html; charset=utf-8');
 
         </div>
     </div>
+    <div class="container">
     <div class="row">
         <button type="button" class="btn btn-primary btn-lg mx-auto">Large button</button>
+    </div>
     </div>
 
 
