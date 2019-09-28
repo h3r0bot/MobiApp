@@ -1,7 +1,9 @@
 <div class="container">
     <div class="valen">
         <div class="row">
-            <div class="col-5"></div>
+            <div class="col-5"><img width="420px"
+                    src="https://www.verywellfit.com/thmb/IPLL2pdahngNWDb9U7pPZfi6l3k=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/marathonrunnerslegs-56a815da3df78cf7729bfb5a.jpg"
+                    alt=""></div>
             <div class="col-7">
                 <h1>МТС Карьера</h1>
                 <p>Уникальная переквалификация сотрудников
@@ -23,22 +25,17 @@
     <div class="sensei">
         <div class="row justify-content-around ">
             <div class="sensei-1 col-4 ">
-                <img class="sensei-face-1"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_TNuj9iA1wZyI8kJaambQZeWLDjhywIGLezvqOdqwx2aJsIGEwg"
-                    alt="">
-                <p>ewiughieug<br>ewgeg</p>
+                <img class="sensei-face-1" src="https://mtscu.ru/uploads/2019/03/egor-tulin-768x768.jpg" alt="">
+                <p>Егор Тулин<br>дизайнер цифровых проектов</p>
             </div>
             <div class="sensei-2 col-4 "> <img class="sensei-face-1"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_TNuj9iA1wZyI8kJaambQZeWLDjhywIGLezvqOdqwx2aJsIGEwg"
-                    alt="">
-
-                <p>ewiughieug<br>ewgeg</p>
+                    src="https://mtscu.ru/uploads/2019/05/foto_kapel-kopija-300x300.jpg" alt="">
+                <p>Олеся Капель<br>Руководитель рекламного агентства</p>
             </div>
             <div class="sensei-3 col-4 ">
                 <img class="sensei-face-1"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_TNuj9iA1wZyI8kJaambQZeWLDjhywIGLezvqOdqwx2aJsIGEwg"
-                    alt="">
-                <p>ewiughieug<br>ewgeg</p>
+                    src="https://mtscu.ru/uploads/2019/05/2foto-avramenko-marija-kopija-274x300.jpg" alt="">
+                <p>Мария Авраменко<br>Руководитель  онлайн-школы</p>
             </div>
         </div>
     </div>
@@ -87,7 +84,7 @@
                     <button type="button" class="btn btn-danger btn-lg mx-auto">Подробнее</button>
                 </a>
             </div>
-            <div class="col-md-4"></div>            
+            <div class="col-md-4"></div>
         </div>
     </div>
 </div>

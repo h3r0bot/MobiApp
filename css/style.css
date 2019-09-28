@@ -33,24 +33,27 @@ text-align: center;
 }
 .sensei-1{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../1.jpg);
     background-repeat: no-repeat;
     background-position: left;   
     position: relative; 
     background-size: 370px  150px ;
+   
     }
 .sensei-2{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../Chto-takoe-kontekstnaya-reklama.jpg);
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: 370px 150px;}
+    background-size: 370px 150px;
+    }
 .sensei-3{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../1554982413_shkola.jpg);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px 150px;
+    
     }
 .sensei-face-1{
     width: 100px;
@@ -58,48 +61,62 @@ text-align: center;
     top: 180px; 
     right: 250px;
     border-radius: 100px;
-    border: 3px black solid;
+    border: 3px white solid;
     }
 .sensei-1 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    color: white;
+    
+    top: 130px; 
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
 }
 .sensei-2 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 130px; 
+    right: 20px;
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+     font-size: 17px;
 }.sensei-3 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+    color: white;
+    top: 130px; 
+    right: 20px;
+     font-size: 17px;
 }
 .sensei{
     margin-bottom:100px; 
 }
 .education-1{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_1280.jpg);
     background-repeat: no-repeat; 
     background-position: right;   
     background-size: 370px;
+    height: 200px;
+    
     }
     .education-2{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://miro.medium.com/max/1500/0*v4yyhL1nttFvv4J4.png);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px;
+    height: 200px;
     }
 .education-3{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://prodawez.ru/wp-content/uploads/2014/02/torgovaya-marka1.jpg);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px;
+    height: 200px;
     }
 .education{
     margin-bottom:50px; 

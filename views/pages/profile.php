@@ -5,10 +5,6 @@ $view = empty($_GET['view']) ? 'main' : $_GET['view'];
 
 switch ($view) {
     case 'main':
-    //   $games = get_games();
-    //   $adverts = get_adverts();
-    //   $_SESSION['switch'] = 0;//обнуление переключателя уведомлений
-    //   $index_title = "GameBox: покупка, продажа и обмен игр";
     break;
 
     case 'katalog':
