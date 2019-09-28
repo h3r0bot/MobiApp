@@ -10,6 +10,14 @@ switch ($view) {
     //   $_SESSION['switch'] = 0;//обнуление переключателя уведомлений
     //   $index_title = "GameBox: покупка, продажа и обмен игр";
     break;
+
+    case 'katalog':
+
+    break;
+
+    case 'proect':
+
+    break;
 }
 ?>
 <!DOCTYPE html>
