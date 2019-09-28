@@ -13,6 +13,5 @@ RewriteRule ^main/?$		index.php [L,QSA]
 RewriteRule ^catalog/?$		index.php?view=katalog [L,QSA]
 RewriteRule ^proect/?$		index.php?view=proect [L,QSA]
 RewriteRule ^nastavnik/?$		index.php?view=nastavnik [L,QSA]
-RewriteRule ^games-playstation-3/?$		index.php?view=playstation_3 [L,QSA]
 
 </IfModule>
