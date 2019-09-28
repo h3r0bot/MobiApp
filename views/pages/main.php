@@ -46,7 +46,13 @@
 <div class="button-danger">
     <div class="container">
         <div class="row">
-            <button type="button" class="btn btn-danger btn-lg mx-auto">Стать наставником?</button>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="/nastavnik">
+                    <button type="button" class="btn btn-danger btn-lg mx-auto">Стать наставником?</button>
+                </a>
+            </div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 </div>
@@ -75,42 +81,13 @@
 <div class="button-danger">
     <div class="container">
         <div class="row">
-            <button type="button" class="btn btn-danger btn-lg mx-auto">Подробнее</button>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="/catalog">
+                    <button type="button" class="btn btn-danger btn-lg mx-auto">Подробнее</button>
+                </a>
+            </div>
+            <div class="col-md-4"></div>            
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="border-red"></div>
-</div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-3"> <a href="/main">
-                    <img class="navbar-brand" src="./logo-career_mts.png">
-                </a></div>
-            <div class="col-3">
-                <div class="block">
-                    <h4>О проекте</h4>
-                    <a href="http://alltemplateneeds.com">Как это работает</a><br>
-                    <a href="http://alltemplateneeds.com">Отзывы</a><br>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="block">
-                    <h4>Наставникам</h4>
-                    <a href="http://wallpaperswide.com">Каталог занятий</a><br>
-                    <a href="http://wallpaperswide.com">Наставники</a>
-
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="social padding">
-                    <a href="twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="vk.com"><i class="fab fa-vk"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>

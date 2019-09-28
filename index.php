@@ -51,6 +51,8 @@ switch ($view) {
     include ('views/blocks/navbar.php');
 
     include ($_SERVER['DOCUMENT_ROOT'].'/views/pages/'.$view.'.php');
+
+    include ('views/blocks/footer.php');
     ?>
 
     <!-- Optional JavaScript -->
