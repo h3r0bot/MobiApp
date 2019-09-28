@@ -15,8 +15,8 @@
                 <li class="nav-item <?php if($view == 'proect') echo 'active'; ?>">
                     <a class="nav-link" href="/proect">О проекте</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./proect.php">Наставникам</a>
+                <li class="nav-item <?php if($view == 'nastavnik') echo 'active'; ?>">
+                    <a class="nav-link" href="/nastavnik">Наставникам</a>
                 </li>
             </ul>
             <div class="border"></div>
@@ -43,3 +43,6 @@
     </div>
 </nav>
 <div class="grid"></div>
+<div class="container">
+    <div class="border-red"></div>
+</div>

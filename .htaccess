@@ -12,7 +12,7 @@ RewriteRule ^main/?$		index.php [L,QSA]
 #ЧПУ для перехода по категориям в файле navbar.php
 RewriteRule ^catalog/?$		index.php?view=katalog [L,QSA]
 RewriteRule ^proect/?$		index.php?view=proect [L,QSA]
-RewriteRule ^games-xbox-360/?$		index.php?view=xbox_360 [L,QSA]
+RewriteRule ^nastavnik/?$		index.php?view=nastavnik [L,QSA]
 RewriteRule ^games-playstation-3/?$		index.php?view=playstation_3 [L,QSA]
 
 </IfModule>
