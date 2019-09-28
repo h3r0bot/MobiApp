@@ -1,8 +1,4 @@
 <div class="container">
-    <div class="border-red"></div>
-</div>
-<br>
-<div class="container">
     <div class="valen">
         <div class="row">
             <div class="col-5"></div>

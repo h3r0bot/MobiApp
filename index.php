@@ -18,6 +18,10 @@ switch ($view) {
     case 'proect':
 
     break;
+
+    case 'nastavnik':
+
+    break;
 }
 ?>
 <!DOCTYPE html>
