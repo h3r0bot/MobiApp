@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
-        <img class="navbar-brand" src="./logo-career_mts.png">
+        <a href="./index.php"><img class="navbar-brand" src="./logo-career_mts.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,13 +8,13 @@
         <div class="collapse navbar-collapse " id="navbarText">
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Каталог знаний <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./katalog.php">Каталог знаний <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./proect.php">О проекте</a>
+                    <a class="nav-link" href="#">О проекте</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Наставникам</a>
+                    <a class="nav-link" href="./proect.php">Наставникам</a>
                 </li>
             </ul> 
             <div class="border"></div>
