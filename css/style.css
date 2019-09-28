@@ -156,6 +156,11 @@ a#pills-mitap-tab.nav-link.active.show{
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+.sign-in-label{
+    font-size: 12px;
+}
+
 .navigation-profile{
     background-color: #e30611 !important;
     margin-top: 20px;
@@ -198,4 +203,16 @@ hr {
 
 .btn-center{
     text-align: center;
+}
+
+a#v-pills-home-tab.nav-link.active{
+    background: #e30611;
+}
+
+a#v-pills-profile-tab.nav-link.active.show{
+    background: #e30611;
+}
+
+a#v-pills-messages-tab.nav-link.active.show{
+    background: #e30611;
 }
