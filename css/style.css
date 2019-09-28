@@ -151,3 +151,32 @@ a#pills-mitap-tab.nav-link.active.show{
     margin-top: 10px;
     margin-left: 20px;
 }
+.navigation-profile{
+    background-color: #e30611 !important;
+    margin-top: 20px;
+}
+.navigation-profile img{
+   margin: 0 auto;
+}
+.navigation-profile a{
+    margin: 0px 50px 0px 50px;
+
+    color: #ffffff !important;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    padding:0px !important;
+    margin:0px !important;
+
+   }
+   .kek{
+       padding:0px !important;
+   }
+   .lol{
+    padding:0px !important;
+    margin-top: 20px;
+  
+}
