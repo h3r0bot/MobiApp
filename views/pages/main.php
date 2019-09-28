@@ -5,10 +5,11 @@
             <div class="col-7">
                 <h1>МТС Карьера</h1>
                 <p>Уникальная переквалификация сотрудников
-                    back-офиса в IT-специалистов</p><div class="button-danger">
-                <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
+                    back-офиса в IT-специалистов</p>
+                <div class="button-danger">
+                    <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
+                </div>
             </div>
-        </div>
         </div>
     </div>
 </div>
@@ -77,35 +78,31 @@
 </div>
 
 
-<div class="container">
-    <div class="site-footer">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-3">
+            <div class="col-3"> <a href="/main">
+                    <img class="navbar-brand" src="./logo-career_mts.png">
+                </a></div>
+            <div class="col-3">
                 <div class="block">
-                    <h2>О проекте</h2>
+                    <h4>О проекте</h4>
                     <a href="http://alltemplateneeds.com">Как это работает</a><br>
                     <a href="http://alltemplateneeds.com">Отзывы</a><br>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-3">
                 <div class="block">
-                    <h2>Ученику</h2>
-                    <a href="http://wallpaperswide.com">Курсы</a><br>
+                    <h4>Наставникам</h4>
+                    <a href="http://wallpaperswide.com">Каталог занятий</a><br>
                     <a href="http://wallpaperswide.com">Наставники</a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="block">
-                    <h2>Наставникам</h2>
-                    <a href="http://wallpaperswide.com">Стать наставником</a>
 
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="block">
-                    <h2>Поддержка</h2>
-                    <a href="#"><i class="fw-icon-twitter "></i> Twitter</a><br>
-                    <a href="#"><i class="fw-icon-facebook"></i> Facebook</a>
+            <div class="col-3">
+                <div class="social padding">
+                    <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="vk.com"><i class="fab fa-vk"></i></a>
                 </div>
             </div>
         </div>
