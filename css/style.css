@@ -11,6 +11,7 @@
 .border-red{
     border-top:1px solid red;
     margin-bottom: 50px;
+    margin-top:50px;
 }
 .valen div:nth-child(odd){
     height: 300px;
@@ -111,6 +112,8 @@ text-align: center;
 }
 .button-danger button{
     background-color: #e30611 !important;
+    color: white !important;
+    width: 100% !important;
 }
 
 .active{

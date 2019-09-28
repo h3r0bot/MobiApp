@@ -43,27 +43,29 @@
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-online-kurs" role="tabpanel"
             aria-labelledby="pills-online-kurs-tab">
-            <div class="row justify-content-between">
-                <div class="card" style="width: 18rem;">
-                    <img src="http://webapp/img/icon-6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="http://webapp/img/icon-6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="http://webapp/img/icon-6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+            <div class="card-deck">
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_1280.jpg" height="200gipx class="card-img-top" alt="...">
+    <div class="button-danger ">
+      <p class="card-text">Школа дизайна МТС</p>
+          <button type="button" class="btn ">Принять участия</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://miro.medium.com/max/1500/0*v4yyhL1nttFvv4J4.png" height="200gipx" class="card-img-top" alt="...">
+    <div class="button-danger ">
+      <p class="card-text">Продуктовый дизайнер UX/UI</p>
+          <button type="button" class="btn ">Принять участия</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://prodawez.ru/wp-content/uploads/2014/02/torgovaya-marka1.jpg" height="200gipx class="card-img-top" alt="...">
+    <div class="button-danger ">
+      <p class="card-text">Создайте свой уникальный бренд</p>
+          <button type="button" class="btn ">Принять участия</button>
+    </div>
+  </div>
+</div>
         </div>
         <div class="tab-pane fade" id="pills-module" role="tabpanel" aria-labelledby="pills-module-tab">
         </div>

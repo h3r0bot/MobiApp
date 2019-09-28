@@ -46,7 +46,7 @@
 <div class="button-danger">
     <div class="container">
         <div class="row">
-            <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
+            <button type="button" class="btn btn-danger btn-lg mx-auto">Стать наставником?</button>
         </div>
     </div>
 </div>
@@ -69,6 +69,13 @@
             <div class="education-3  col-4 ">
 
             </div>
+        </div>
+    </div>
+</div>
+<div class="button-danger">
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn btn-danger btn-lg mx-auto">Подробнее</button>
         </div>
     </div>
 </div>
