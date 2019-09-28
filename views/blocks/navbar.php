@@ -18,12 +18,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./proect.php">Наставникам</a>
                 </li>
-            </ul> 
+            </ul>
             <div class="border"></div>
             <span class="navbar-text">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        
+
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-sign-in-alt"></i> Вход

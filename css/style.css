@@ -10,7 +10,7 @@
 }
 .border-red{
     border-top:1px solid red;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .valen div:nth-child(odd){
     height: 300px;
@@ -180,3 +180,13 @@ hr {
     margin-top: 20px;
   
 }
+.social a{
+    font-size: 40px;
+    margin-left: 30px
+}
+.social {
+   margin-bottom: 70px;
+}
+.fa-facebook{color: #3b5998}
+.fa-twitter{color: #00aced}
+.fa-vk{color: #4C75A3}
