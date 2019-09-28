@@ -1,17 +1,19 @@
 <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
-        <img class="navbar-brand" src="./logo-career_mts.png">
+        <a href="/main">
+            <img class="navbar-brand" src="./logo-career_mts.png">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarText">
             <ul class="navbar-nav ml-auto ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Каталог знаний <span class="sr-only">(current)</span></a>
+                <li class="nav-item <?php if($view == 'katalog') echo 'active'; ?>">
+                    <a class="nav-link" href="/catalog">Каталог знаний <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./proect.php">О проекте</a>
+                <li class="nav-item <?php if($view == 'proect') echo 'active'; ?>">
+                    <a class="nav-link" href="/proect">О проекте</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Наставникам</a>
