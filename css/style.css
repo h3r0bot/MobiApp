@@ -109,3 +109,6 @@ text-align: center;
 .block a{
     color:red !important;
 }
+.button-danger button{
+    background-color: #e30611 !important;
+}

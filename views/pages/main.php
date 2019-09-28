@@ -45,9 +45,11 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
+<div class="button-danger">
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
+        </div>
     </div>
 </div>
 
@@ -62,12 +64,12 @@
     <div class="education">
         <div class="row justify-content-around ">
             <div class="education-1 col-4 ">
-               
+
             </div>
-            <div class="education-2  col-4 "> 
+            <div class="education-2  col-4 ">
             </div>
             <div class="education-3  col-4 ">
-         
+
             </div>
         </div>
     </div>
