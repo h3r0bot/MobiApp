@@ -153,6 +153,8 @@ a#pills-mitap-tab.nav-link.active.show{
 .sign-in-item div{
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 .navigation-profile{
     background-color: #e30611 !important;

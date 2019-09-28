@@ -22,6 +22,10 @@ switch ($view) {
     case 'nastavnik':
 
     break;
+
+    case 'profile':
+
+    break;
 }
 ?>
 <!DOCTYPE html>
