@@ -14,5 +14,6 @@ RewriteRule ^catalog/?$		index.php?view=katalog [L,QSA]
 RewriteRule ^proect/?$		index.php?view=proect [L,QSA]
 RewriteRule ^nastavnik/?$		index.php?view=nastavnik [L,QSA]
 RewriteRule ^profile/?$		index.php?view=profile [L,QSA]
+RewriteRule ^curs/?$		index.php?view=curs [L,QSA]
 
 </IfModule>

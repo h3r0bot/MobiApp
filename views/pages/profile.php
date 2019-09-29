@@ -35,7 +35,7 @@
                                     class="card-img-top" alt="...">
                                 <div class="button-danger ">
                                     <p class="card-text">Продуктовый дизайнер UX/UI</p>
-                                    <a href="/curs.php" target="_blank">
+                                    <a href="/curs">
                                     <button type="button" class="btn ">Записаться</button>
                                     </a>
                                 </div>

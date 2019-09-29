@@ -95,6 +95,10 @@ switch ($view) {
         }
         $courses = get_courses();
     break;
+
+    case 'curs':
+
+    break;
 }
 ?>
 <!DOCTYPE html>
