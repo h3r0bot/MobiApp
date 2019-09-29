@@ -45,6 +45,27 @@ mysql_query($create_mentors_table);
 mysql_query($create_courses_table);
 mysql_query($create_course_tasks_table);
 
+session_start();
+// session_unset();
+// $_SESSION['user_id'] = 0;
+// echo $_SESSION['user_id'];
+
+$user_id = 1;
+$user_pass = 123;
+
+if($_POST['submit'])
+{
+    if($user_id == $_POST['user'] && $user_pass == $_POST['pass'])
+        {
+            $_SESSION['user_id'] = $user_id;
+            header("Location: /profile");
+            exit();
+        } else if($user_id != $_POST['user'] || $user_pass != $_POST['pass'] || empty($_POST['user']) || empty($_POST['pass'])){
+            header("Location: /main");
+            exit();
+        }
+}
+
 $view = empty($_GET['view']) ? 'main' : $_GET['view'];
 
 switch ($view) {
@@ -65,7 +86,12 @@ switch ($view) {
     break;
 
     case 'profile':
-
+        if($_SESSION['user_id'] = $user_id)
+        {
+            // header("Location: /profile");
+        } else {
+            header("Location: /main");
+        }
     break;
 }
 ?>
@@ -84,7 +110,7 @@ switch ($view) {
         
     <link href="/fontawesome/css/all.css" rel="stylesheet">
     
-    <title>Hello, world!</title>
+    <title>МТС Карьера</title>
 </head>
 
 

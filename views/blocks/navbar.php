@@ -29,24 +29,24 @@
                             <i class="fas fa-sign-in-alt"></i> Вход
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <!-- <form>
+                            <form>
                                 <span class="sign-in-item">
                                     <div class="form-group">
-                                        <label class="sign-in-label" for="formGroupExampleInput">Example label</label>
-                                        <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Example input">
+                                        <input type="text" class="form-control form-control-sm" name="user" placeholder="user">
                                     </div>
                                     <div class="form-group">
-                                        <label class="sign-in-label" for="formGroupExampleInput2">Another label</label>
-                                        <input type="text" class="form-control form-control-sm" id="formGroupExampleInput2" placeholder="Another input">
+                                        <input type="text" class="form-control form-control-sm" name="pass" placeholder="pass">
                                     </div>
+                                    <a href="/profile" class="btn btn-primary btn-sm btn-red">Войти</a>
+                                    <!-- <button type="submit" class="btn btn-primary btn-sm btn-red">Войти</button> -->
                                 </span>
-                            </form> -->
-                            <span class="sign-in-item">
+                            </form>
+                            <!-- <span class="sign-in-item">
                                 <script src="//ulogin.ru/js/ulogin.js"></script>
                                 <div id="uLogin"
                                     data-ulogin="display=panel;theme=flat;fields=first_name,last_name;providers=vkontakte,facebook,google;redirect_uri=http%3A%2F%2Fmobiapp%2F;mobilebuttons=0;">
                                 </div>
-                            </span>
+                            </span> -->
                         </div>
                     </li>
                 </ul>

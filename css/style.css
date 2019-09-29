@@ -157,8 +157,30 @@ a#pills-mitap-tab.nav-link.active.show{
     margin-bottom: 10px;
 }
 
+.sign-in-item button{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 .sign-in-label{
     font-size: 12px;
+}
+
+button.btn.btn-primary.btn-sm.btn-red{
+    background: #e30611;
+    border: none;
+}
+
+a.btn.btn-primary.btn-sm.btn-red{
+    background: #e30611;
+    border: none;
+    color: #ffffff;
+}
+
+.sign-in-item a{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .navigation-profile{
