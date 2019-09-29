@@ -1,16 +1,16 @@
 <div class="container">
     <div class="valen">
         <div class="row">
-            <div class="col-5"><img width="420px"
-                    src="https://www.verywellfit.com/thmb/IPLL2pdahngNWDb9U7pPZfi6l3k=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/marathonrunnerslegs-56a815da3df78cf7729bfb5a.jpg"
-                    alt=""></div>
-            <div class="col-7">
-                <h1>МТС Карьера</h1>
-                <p>Уникальная переквалификация сотрудников
-                    back-офиса в IT-специалистов</p>
-                <div class="button-danger">
-                    <button type="button" class="btn btn-danger btn-lg mx-auto">С чего начать?</button>
-                </div>
+            <div class="col-6"><img width="530px" src="../marafon.jpeg " alt=""></div>
+            <div class="col-6">
+                <h2>Добро пожаловать на платформу совместного непрерывного развития!</h2>
+                <p>
+                <br>
+                    Каждый каждому учитель<br><br>
+
+                    Найдите наставника и получите необходимые навыки
+                    или станьте наставником и зарабатывайте на своей экспертности</p>
+
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
             <div class="sensei-3 col-4 ">
                 <img class="sensei-face-1"
                     src="https://mtscu.ru/uploads/2019/05/2foto-avramenko-marija-kopija-274x300.jpg" alt="">
-                <p>Мария Авраменко<br>Руководитель  онлайн-школы</p>
+                <p>Мария Авраменко<br>Руководитель онлайн-школы</p>
             </div>
         </div>
     </div>

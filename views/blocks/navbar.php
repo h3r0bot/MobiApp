@@ -39,7 +39,7 @@
                                     <label for="formGroupExampleInput2">Another label</label>
                                     <input type="text" class="form-control form-control-sm" id="formGroupExampleInput2" placeholder="Another input">
                                 </div>
-                            </span>
+                              </span>
                             </form>
                             <!-- <span class="sign-in-item">
                                 <script src="//ulogin.ru/js/ulogin.js"></script>
@@ -58,7 +58,7 @@
 <?php
 if($view != profile) echo
 '
-<div class="container">
+<div class="text container"><p>Непрерывное совместное развитие</p>
     <div class="border-red"></div>
 </div>
 ';

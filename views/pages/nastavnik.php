@@ -17,5 +17,8 @@
             сервисом. Или же обратиться к нам за услугами создания курса, продвижения
             бренда и привлечения аудитории.
         </p>
+
+                    <button type="button" class="click btn btn-danger btn-lg mx-auto">Подать заявку</button>
+
     </div>
 </div>
