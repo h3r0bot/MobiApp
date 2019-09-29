@@ -1,3 +1,4 @@
+<footer class="footer mt-auto py-2">
 <div class="container">
     <div class="border-red"></div>
 </div>
@@ -30,3 +31,4 @@
         </div>
     </div>
 </div>
+</footer>

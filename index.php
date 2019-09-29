@@ -58,11 +58,11 @@ if($_POST['submit'])
     if($user_id == $_POST['user'] && $user_pass == $_POST['pass'])
         {
             $_SESSION['user_id'] = $user_id;
-            header("Location: /profile");
-            exit();
+            // header("Location: /profile");
+            // exit();
         } else if($user_id != $_POST['user'] || $user_pass != $_POST['pass'] || empty($_POST['user']) || empty($_POST['pass'])){
-            header("Location: /main");
-            exit();
+            // header("Location: /main");
+            // exit();
         }
 }
 
@@ -70,7 +70,7 @@ $view = empty($_GET['view']) ? 'main' : $_GET['view'];
 
 switch ($view) {
     case 'main':
-
+    $_SESSION['login'] = false;
     break;
 
     case 'katalog':
@@ -86,11 +86,12 @@ switch ($view) {
     break;
 
     case 'profile':
+        $_SESSION['login'] = true;
         if($_SESSION['user_id'] = $user_id)
         {
             // header("Location: /profile");
         } else {
-            header("Location: /main");
+            // header("Location: /main");
         }
     break;
 }
