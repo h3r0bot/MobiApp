@@ -302,8 +302,10 @@ a#v-pills-messages-tab.nav-link.active.show{
     width: 580px;
     margin-bottom: 30px;
     margin-top: 200px
-    
-    
+}
+.background-images h6{
+    color:white;
+
 }
 .about{
     font-size: 20px;
@@ -319,7 +321,5 @@ a#v-pills-messages-tab.nav-link.active.show{
     padding: 20px;
     height: 90px;
     border-radius: 30px;
-}
-.backround-users p{
-
+    color:white;
 }
