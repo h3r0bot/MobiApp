@@ -36,7 +36,7 @@
                                 <form>
                                     <span class="sign-in-item">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-sm" name="user" placeholder="user" value="Ivanov_Ivan">
+                                            <input type="text" class="form-control form-control-sm" name="user" placeholder="user" value="Popova_Raya">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-sm" name="pass" placeholder="pass" value="123456">

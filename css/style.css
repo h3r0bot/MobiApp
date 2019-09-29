@@ -234,6 +234,7 @@ hr {
     margin-top: 20px;
   
 }
+
 .social a{
     font-size: 40px;
     margin-left: 30px
@@ -322,4 +323,30 @@ a#v-pills-messages-tab.nav-link.active.show{
     height: 90px;
     border-radius: 30px;
     color:white;
+}
+.prof-users{
+    float: right;
+}
+.users-face-1{
+    width: 200px;
+    border-radius: 100px;
+    border: 3px white solid;
+    }
+.data-users{
+    display: block;
+   margin-top:80px !important;
+   margin-right: 250px;
+   float:right;
+   width: 300px
+}
+.lessons{
+    width: 600px;
+    border-radius: 30px;
+    background-color: #FE2B30;
+    padding: 20px;
+    color:white;
+    margin-bottom:30px; 
+}
+.lessons img{
+    float: right;
 }
