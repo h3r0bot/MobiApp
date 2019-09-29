@@ -89,4 +89,3 @@
                 <button type="button" class="thapis btn btn-danger btn-lg mx-auto" style="margin-top:100px">Записаться
                     курс</button>
             </div>
-            </div>
