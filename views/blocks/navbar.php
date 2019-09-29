@@ -36,10 +36,10 @@
                                 <form>
                                     <span class="sign-in-item">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-sm" name="user" placeholder="user">
+                                            <input type="text" class="form-control form-control-sm" name="user" placeholder="user" value="Ivanov_Ivan">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-sm" name="pass" placeholder="pass">
+                                            <input type="password" class="form-control form-control-sm" name="pass" placeholder="pass" value="123456">
                                         </div>                                    
                                         <a href="/profile" class="btn btn-primary btn-sm btn-red">Войти</a>
                                         <!-- <button type="submit" class="btn btn-primary btn-sm btn-red">Войти</button> -->
