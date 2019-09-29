@@ -127,7 +127,7 @@ text-align: center;
     margin-bottom:50px; 
 }
 .site-footer{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .block a{
     color:red !important;
@@ -178,6 +178,33 @@ a#pills-mitap-tab.nav-link.active.show{
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+.sign-in-item button{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-in-label{
+    font-size: 12px;
+}
+
+button.btn.btn-primary.btn-sm.btn-red{
+    background: #e30611;
+    border: none;
+}
+
+a.btn.btn-primary.btn-sm.btn-red{
+    background: #e30611;
+    border: none;
+    color: #ffffff;
+}
+
+.sign-in-item a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .navigation-profile{
     background-color: #e30611 !important;
     margin-top: 20px;
@@ -212,7 +239,7 @@ hr {
     margin-left: 30px
 }
 .social {
-   margin-bottom: 70px;
+   margin-bottom: 0px;
 }
 .fa-facebook{color: #3b5998}
 .fa-twitter{color: #00aced}
@@ -220,6 +247,22 @@ hr {
 
 .btn-center{
     text-align: center;
+}
+
+div.container.katalog{
+    margin: 15px;
+}
+
+a#v-pills-home-tab.nav-link.active{
+    background: #e30611;
+}
+
+a#v-pills-profile-tab.nav-link.active.show{
+    background: #e30611;
+}
+
+a#v-pills-messages-tab.nav-link.active.show{
+    background: #e30611;
 }
 .background-images{
     width: 100%;
