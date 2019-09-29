@@ -85,7 +85,7 @@ switch ($view) {
 
     break;
 
-    case 'profile':
+    case 'profile':        
         $_SESSION['login'] = true;
         if($_SESSION['user_id'] = $user_id)
         {
@@ -93,6 +93,7 @@ switch ($view) {
         } else {
             // header("Location: /main");
         }
+        $courses = get_courses();
     break;
 }
 ?>

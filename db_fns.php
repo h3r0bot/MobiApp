@@ -17,4 +17,30 @@ function db_connect()
     }
     return $connection;
 }
+
+function db_result_to_array($result)
+{
+  $res_array = array();
+  $count = 0;
+
+  while ($row = mysql_fetch_array($result))
+  {
+    $res_array[$count] = $row;
+    $count++;
+  }
+  return $res_array;
+}
+
+function get_courses()
+{
+  db_connect();
+
+  $query = "SELECT * FROM courses ORDER BY course_id";
+
+  $result = mysql_query($query) or trigger_error(mysql_error()." in ". $query);
+
+  $result = db_result_to_array($result);
+
+  return $result;
+}
 ?>

@@ -227,6 +227,10 @@ hr {
     text-align: center;
 }
 
+div.container.katalog{
+    margin: 15px;
+}
+
 a#v-pills-home-tab.nav-link.active{
     background: #e30611;
 }
