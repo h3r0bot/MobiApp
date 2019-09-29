@@ -10,14 +10,19 @@
 }
 .border-red{
     border-top:1px solid red;
-    margin-bottom: 50px;
-    margin-top:50px;
+}
+.click{
+    margin-bottom: 10px;
+}
+.text{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif   
 }
 .valen div:nth-child(odd){
-    height: 300px;
+    height: 370px;
 }
 .valen div:nth-child(even){
-    height: 300px;
+    height: 370px;
 
 }
 .valen p{
@@ -33,24 +38,27 @@ text-align: center;
 }
 .sensei-1{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../1.jpg);
     background-repeat: no-repeat;
     background-position: left;   
     position: relative; 
     background-size: 370px  150px ;
+   
     }
 .sensei-2{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../Chto-takoe-kontekstnaya-reklama.jpg);
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: 370px 150px;}
+    background-size: 370px 150px;
+    }
 .sensei-3{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(../1554982413_shkola.jpg);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px 150px;
+    
     }
 .sensei-face-1{
     width: 100px;
@@ -58,48 +66,62 @@ text-align: center;
     top: 180px; 
     right: 250px;
     border-radius: 100px;
-    border: 3px black solid;
+    border: 3px white solid;
     }
 .sensei-1 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    color: white;
+    
+    top: 130px; 
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
 }
 .sensei-2 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 130px; 
+    right: 20px;
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+     font-size: 17px;
 }.sensei-3 p{
     position: absolute;
-    top: 180px; 
-    right: 100px;
-    font-size: 20px
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+    color: white;
+    top: 130px; 
+    right: 20px;
+     font-size: 17px;
 }
 .sensei{
     margin-bottom:100px; 
 }
 .education-1{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_1280.jpg);
     background-repeat: no-repeat; 
     background-position: right;   
     background-size: 370px;
+    height: 200px;
+    
     }
     .education-2{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://miro.medium.com/max/1500/0*v4yyhL1nttFvv4J4.png);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px;
+    height: 200px;
     }
 .education-3{
     height: 300px;
-    background-image: url(http://webapp/img/icon-6.png);
+    background-image: url(https://prodawez.ru/wp-content/uploads/2014/02/torgovaya-marka1.jpg);
     background-repeat: no-repeat; 
     background-position: right;
     background-size: 370px;
+    height: 200px;
     }
 .education{
     margin-bottom:50px; 
@@ -186,6 +208,7 @@ a.btn.btn-primary.btn-sm.btn-red{
 .navigation-profile{
     background-color: #e30611 !important;
     margin-top: 20px;
+    height: 500px;
 }
 .navigation-profile img{
    margin: 0 auto;
@@ -198,10 +221,9 @@ a.btn.btn-primary.btn-sm.btn-red{
 hr {
     border: none; /* Убираем границу */
     background-color: red; /* Цвет линии */
-    color: red; /* Цвет линии для IE6-7 */
+   
     height: 2px; /* Толщина линии */
-    padding:0px !important;
-    margin:0px !important;
+ 
 
    }
    .kek{
@@ -226,6 +248,7 @@ hr {
 .btn-center{
     text-align: center;
 }
+<<<<<<< HEAD
 
 div.container.katalog{
     margin: 15px;
@@ -241,4 +264,64 @@ a#v-pills-profile-tab.nav-link.active.show{
 
 a#v-pills-messages-tab.nav-link.active.show{
     background: #e30611;
+=======
+.background-images{
+    width: 100%;
+    height: 500px;
+    background-image: url(../ацй.jpg);
+    background-position: center;
+    margin-bottom: 50px
+}
+.background-images container{
+    margin-bottom: 50px
+}
+.background-images img{
+    height: 220px;
+    width: 220px;
+    top:110px;
+    border-radius: 360px;
+    left: 100PX;
+}
+.background-images p {
+    margin-left: 30px;
+    color: white;
+    margin-top: 350px;
+    text-align: center;
+    text-shadow: 10px 10px 10px black, 0 0 1em black;
+}
+.box-title{
+    background-color: #ffffff;
+    position: relative; 
+    filter: blur(10px);
+}
+
+.background-images h1{
+    color:white;
+    background-color: #3D3D49;
+    padding: 20px;
+    border-radius: 100px; 
+    width: 580px;
+    margin-bottom: 30px;
+    margin-top: 200px
+    
+    
+}
+.about{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avatar-users{
+    border-radius: 360px;
+    border:2px solid white;
+
+}
+.backround-users{
+    background-color: #FE2B30;
+    padding: 20px;
+    height: 90px;
+    border-radius: 30px;
+}
+.backround-users p{
+
+>>>>>>> master
 }

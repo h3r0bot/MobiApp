@@ -10,13 +10,12 @@
         <div class="col-3">
             <div class="block">
                 <h4>О проекте</h4>
-                <a href="/proect">Как это работает</a><br>
-                <a href="#">Отзывы</a><br>
+                <a href="/proect">Как это работает</a>
             </div>
         </div>
         <div class="col-3">
             <div class="block">
-                <h4>Наставникам</h4>
+                <h4>Ученикам</h4>
                 <a href="/catalog">Каталог занятий</a><br>
                 <a href="/nastavnik">Наставники</a>
 
